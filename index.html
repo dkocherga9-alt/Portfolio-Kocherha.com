@@ -1,0 +1,105 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Danylo Kocherha | Marketing Portfolio</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body class="bg-black text-white font-sans"><!-- HERO --><section class="min-h-screen flex flex-col justify-center items-center text-center px-6">
+  <h1 class="text-5xl md:text-6xl font-bold mb-4">Danylo Kocherha</h1>
+  <p class="text-xl text-gray-400 mb-6">Performance Marketing & E-commerce Specialist</p>
+  <p class="max-w-2xl text-gray-500 mb-8">
+    Helping fitness and e-commerce brands scale through performance marketing, data-driven strategies, and conversion optimization.
+  </p>
+  <a href="#projects" class="bg-green-500 text-black px-6 py-3 rounded-xl font-semibold">View Case Studies</a>
+</section><!-- ABOUT --><section class="py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6">About Me</h2>
+  <p class="max-w-3xl mx-auto text-gray-400">
+    
+I am a digital marketing and e-commerce specialist with a strong focus on performance marketing, social media, and content strategy.
+
+I have hands-on experience in sales and marketing, where I successfully increased online visibility, optimized conversion rates, and drove business growth (+17% sales through SEO and content strategies).
+
+I am highly interested in the fitness industry, sports nutrition, and lifestyle brands. I actively follow trends in social media, influencer marketing, and short-form video content (TikTok, Instagram Reels).
+
+I combine analytical thinking with creativity to develop high-performing campaigns and scalable growth strategies.
+
+I would be excited to contribute to GymBeam’s growth in the Ukrainian market.
+    I specialize in performance marketing, customer acquisition, and conversion optimization.
+    My focus is building scalable growth systems for fitness and e-commerce brands.Passionate about fitness, sports nutrition, and digital marketing, I combine analytical thinking with creative execution.
+
+  </p>
+</section><!-- KPI SECTION --><section class="py-16 px-6 bg-gray-900">
+  <h2 class="text-3xl font-bold text-center mb-10">Key Results</h2>
+  <div class="grid md:grid-cols-3 gap-6 max-w-5xl mx-auto text-center">
+    <div class="bg-black p-6 rounded-xl">
+      <h3 class="text-3xl font-bold">+17%</h3>
+      <p class="text-gray-400">Sales Growth</p>
+    </div>
+    <div class="bg-black p-6 rounded-xl">
+      <h3 class="text-3xl font-bold">Top 3</h3>
+      <p class="text-gray-400">Google Ranking</p>
+    </div>
+    <div class="bg-black p-6 rounded-xl">
+      <h3 class="text-3xl font-bold">+32%</h3>
+      <p class="text-gray-400">Conversion Rate</p>
+    </div>
+  </div>
+</section><!-- ANALYTICS CHART --><section class="py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-10">Growth Analytics</h2>
+  <canvas id="growthChart" class="max-w-3xl mx-auto"></canvas>
+</section><!-- CASE STUDY --><section id="projects" class="py-16 px-6 bg-gray-900">
+  <h2 class="text-3xl font-bold text-center mb-10">Case Study</h2>  <div class="max-w-4xl mx-auto bg-black p-8 rounded-xl"><h3 class="text-2xl font-semibold mb-4">Franchise Branch Growth & SEO Optimization</h3>
+
+<p class="text-gray-400 mb-4"><strong>Client:</strong> PZU Ukraine</p>
+
+<p class="mb-4"><strong>Problem:</strong><br>
+  Low online visibility, weak customer acquisition, and minimal digital presence.
+</p>
+
+<p class="mb-4"><strong>Strategy:</strong><br>
+  • Local SEO optimization (Google Maps, keywords, reviews)<br>
+  • Content and social media activation<br>
+  • Customer journey optimization
+</p>
+
+<p class="mb-4"><strong>Execution:</strong><br>
+  • Ranked branch in Top 3 Google results without paid ads<br>
+  • Improved engagement and online visibility<br>
+  • Optimized conversion funnel
+</p>
+
+<p><strong>Results:</strong><br>
+  • +17% sales growth<br>
+  • +32% conversion rate<br>
+  • Increased local traffic and brand visibility
+</p>
+
+  </div>
+</section><!-- FITNESS BRANDING --><section class="py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6">Fitness Marketing Focus</h2>
+  <p class="max-w-2xl mx-auto text-gray-400">
+    Specialized in fitness industry marketing, including sports nutrition, supplementation, and lifestyle branding.Focus on building high-converting campaigns for fitness e-commerce brands.
+
+  </p>
+</section><!-- CONTACT --><section class="py-16 px-6 text-center">
+  <h2 class="text-3xl font-bold mb-6">Let's Work Together</h2>
+
+<p class="text-gray-400 mb-4">Open to digital marketing & e-commerce opportunities</p>
+  <p class="text-gray-300">Email: dkocherga9@gmail.com</p>
+</section><script>
+const ctx = document.getElementById('growthChart');
+new Chart(ctx, {
+  type: 'line',
+  data: {
+    labels: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun'],
+    datasets: [{
+      label: 'Traffic Growth',
+      data: [120, 190, 300, 500, 700, 950],
+      borderWidth: 2
+    }]
+  }
+});
+</script></body>
+</html>
